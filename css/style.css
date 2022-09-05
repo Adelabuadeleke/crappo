@@ -246,6 +246,248 @@ nav {
     color: white;
     border-radius: 32px;
 }
+.trade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    flex-direction: column;
+    /* margin-bottom: 20px; */
+}
+.estmate {
+    width: 80%;
+    padding: 20px;
+    border-radius: 0px 0px 16px 16px;
+    background-color: white;
+    box-shadow: 0px 5px 5px #391777;
+    color: #0D0D2B;
+}
+
+.estmate>h3> span {
+    color: #3671E9;
+}
+
+.est {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #3671E9;
+}
+
+.rev {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.trad h2{
+color: #0D0D2B;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+width: 741px;
+text-align: center;
+}
+
+.coins{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.coin_items{
+    max-width: 300px;
+    background: #2B076E;
+    backdrop-filter: blur(250px);
+    border-radius: 16px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 40px 40px #391777;
+}
+
+.coin_items span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+.coin_items h3{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+.coin_items.white {
+    background-color: white;
+    color:  #0D0D2B;
+}
+
+.coin_items button {
+    background: #3671E9;
+    color: white;
+    width: 202px;
+    height: 64px;
+    border-radius: 32px;
+    border: 1px solid #3671E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coin_items> button> img {
+    margin-left: 10px;
+}
+
+.market {
+    /* background-color: ; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background: url("../img/top-sem.png") no-repeat, url("../img/otom-sem.png") no-repeat #2B076E;
+    background-position: top,  bottom right;
+    /* background-size: 500px 500px; */
+}
+
+.market h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    max-width: 758px;
+}
+
+.invest {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.investor_first {
+    max-width: 400px;
+}
+
+.investor_first h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.investor_first p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+
+.investor_first button{
+    width: 162px;
+    height: 59px;
+    background: #3671E9;
+    border-radius: 32px;
+    color: white;
+    font-weight: 500;
+    border: 1px solid #3671E9;
+}
+.investor_img > img{
+    max-width: 500px;
+}
+
+.stats {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.stats_second {
+    max-width: 400px;
+}
+
+.stats_second h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.stats_second p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+
+
+.stats_second button {
+    width: 162px;
+    height: 59px;
+    background: #3671E9;
+    border-radius: 32px;
+    color: white;
+    font-weight: 500;
+    border: 1px solid #3671E9;
+}
+
+.stats_img>img {
+    max-width: 500px;
+}
+
+.profit {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.profit_first {
+    max-width: 400px;
+}
+
+.profit_first h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.profit_first p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+
+
+.profit_first button {
+    width: 162px;
+    height: 59px;
+    background: #3671E9;
+    border-radius: 32px;
+    color: white;
+    font-weight: 500;
+    border: 1px solid #3671E9;
+}
+
+.profit_img>img {
+    max-width: 500px;
+}
+
+
+
 @media screen  and (min-width: 1024px){
     header {
         min-height: 100vh;
