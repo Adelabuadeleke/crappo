@@ -487,6 +487,73 @@ text-align: center;
 }
 
 
+.sub {
+    /* background-color: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background:  url("../img/sub_slash.png") no-repeat, url(''), url("../img/sub_slash_2.png") no-repeat,linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+    background-position: bottom left, bottom left, bottom right;
+    background-size: 500px 500px 500px;
+}
+
+.sub_box {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 20px; */
+    align-items: center;
+    width: 80%;
+    border-radius: 16px;
+    background: url("../img/Vector_eth.png") no-repeat, url("../img/Vector_btc.png") no-repeat #3671E9;
+    background-position: left top, bottom right;
+}
+.sub_text {
+    width: 320px;
+}
+
+.sub_text h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+}
+.sub_text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+}
+
+.sub_input input{
+    width: 374px;
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+    border-bottom: 1px solid white;
+    caret-color: white;
+    margin-right: 20px;
+}
+
+.sub_input input::placeholder {
+    color: white;
+}
+
+/* .sub_text input */
+
+.sub_input  button {
+    width: 152px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #0D0D2B;
+    border: 1px solid white;
+}
+
 
 @media screen  and (min-width: 1024px){
     header {
