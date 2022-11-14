@@ -17,7 +17,6 @@ header {
     padding: 30px;
     background: url("../img/small_slash.png") no-repeat,url(''),url("../img/longer_slash.png") no-repeat;
     background-position: bottom right, bottom right;
-    background-size: 500px 500px 500px;
 }
 
 nav {
@@ -25,12 +24,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 52px;
+    margin-bottom: 10px;
 }
 
 .intro_div{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .logo_div {
     display: flex;
@@ -89,7 +90,6 @@ nav {
     display: flex;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 32px;
-    width: 365px;
     font-size: 12px;
     height: 40px;
     display: flex;
@@ -109,7 +109,6 @@ nav {
 .save {
     background-color: white;
     color: black;
-    width: 113px;
     padding: 4px 16px;
     border-radius: 32px;
     height: 32px;
@@ -117,19 +116,6 @@ nav {
     justify-content: center;
     align-items: center;
     /* text-align: center; */
-}
-
-.intro_text h2 {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 76px;
-    margin: 0;
-}
-.text_2 p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    width: 435px;
 }
 
 .first button{
@@ -144,11 +130,6 @@ nav {
     justify-content: center;
 }
 
-.second img {
-    width: 550px;
-}
-
-
 .first> button>img {
     height: 32px;
     width: 32px;
@@ -162,18 +143,6 @@ nav {
     padding: 30px;
 }
 
-.number_details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 360px;
-}
-
-.number_details img {
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
-}
 
 .contents {
     display: flex;
@@ -182,11 +151,10 @@ nav {
     padding: 100px 0;
     background: url("../img/l.png") no-repeat, url("../img/D.png") no-repeat, url("../img/u.png") no-repeat;
     background-position: bottom left, top right, bottom right;
+    flex-wrap: wrap;
 }
 
-.contents img {
-    width: 400px;
-}
+
 
 .content_text {
     width: 400px;
@@ -238,14 +206,7 @@ nav {
     border-bottom: 1px solid #E0E0E0;
 }
 
-.hash> button {
-    width: 147px;
-    height: 59px;
-    background: #3671E9;
-    border: 1px solid #3671E9;
-    color: white;
-    border-radius: 32px;
-}
+
 .trade{
     display: flex;
     justify-content: center;
@@ -282,24 +243,17 @@ nav {
     color: #828282;
 }
 
-.trad h2{
-color: #0D0D2B;
-font-weight: 700;
-font-size: 40px;
-line-height: 150%;
-width: 741px;
-text-align: center;
-}
+
 
 .coins{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    padding: 50px 0;
+    flex-wrap: wrap;
 }
 
 .coin_items{
-    max-width: 300px;
+    
     background: #2B076E;
     backdrop-filter: blur(250px);
     border-radius: 16px;
@@ -361,18 +315,13 @@ text-align: center;
     /* background-size: 500px 500px; */
 }
 
-.market h2{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 150%;
-    max-width: 758px;
-}
 
 .invest {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 .investor_first {
@@ -401,16 +350,16 @@ text-align: center;
     color: white;
     font-weight: 500;
     border: 1px solid #3671E9;
+    margin-bottom: 20px;
 }
-.investor_img > img{
-    max-width: 500px;
-}
+
 
 .stats {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 .stats_second {
@@ -442,15 +391,12 @@ text-align: center;
     border: 1px solid #3671E9;
 }
 
-.stats_img>img {
-    max-width: 500px;
-}
-
 .profit {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 .profit_first {
@@ -480,11 +426,10 @@ text-align: center;
     color: white;
     font-weight: 500;
     border: 1px solid #3671E9;
+    margin-bottom: 20px;
 }
 
-.profit_img>img {
-    max-width: 500px;
-}
+
 
 
 .sub {
@@ -496,6 +441,7 @@ text-align: center;
     background:  url("../img/sub_slash.png") no-repeat, url(''), url("../img/sub_slash_2.png") no-repeat,linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
     background-position: bottom left, bottom left, bottom right;
     background-size: 500px 500px 500px;
+    
 }
 
 .sub_box {
@@ -503,36 +449,11 @@ text-align: center;
     justify-content: space-evenly;
     /* padding: 20px; */
     align-items: center;
-    width: 80%;
     border-radius: 16px;
     background: url("../img/Vector_eth.png") no-repeat, url("../img/Vector_btc.png") no-repeat #3671E9;
     background-position: left top, bottom right;
-}
-.sub_text {
-    width: 320px;
-}
-
-.sub_text h3 {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 150%;
-}
-.sub_text p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.01em;
-}
-
-.sub_input input{
-    width: 374px;
-    background: none;
-    border: none;
-    color: white;
-    outline: none;
-    border-bottom: 1px solid white;
-    caret-color: white;
-    margin-right: 20px;
+    flex-wrap: wrap;
+   
 }
 
 .sub_input input::placeholder {
@@ -554,9 +475,7 @@ text-align: center;
     border: 1px solid white;
 }
 
-footer {
-    padding: 50px;
-}
+
 .footer_contents {
     display: flex;
     justify-content: space-between;
@@ -612,7 +531,6 @@ footer {
 .contents_four p {
     font-weight: 500;
     font-size: 32px;
-    margin: 1rem;
     /* line-height: 150%; */
 }
 
@@ -620,17 +538,322 @@ footer {
     margin: 10px;
 }
 
+.contents_two,
+.contents_three,
+.contents_four {
+    min-width: 300px;
+}
+
 .footer_bottom {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .bottom_icons img {
     margin: 0 10px;
 }
 
+@media screen and (min-width: 320px) {
+    header {
+        padding: 10px;
+        background-size: 50px 50px 50px;
+    }
+    .black_friday {
+        width: 300px;
+    }
+
+    .save {
+        width: 80px;
+    }
+    .second img {
+        width: 300px;
+    }
+
+    .intro_text h2 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 46px;
+        margin: 0;
+    }
+
+    .text_2 p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 22px;
+        width: 300px;
+    }
+
+    .second_div{
+        display: none;
+        /* visibility: hidden; */
+    }
+
+    .investor_img>img {
+        max-width: 300px;
+    }
+
+    .stats_img>img {
+        max-width: 300px;
+    }
+
+    .profit_img>img {
+        max-width: 300px;
+    }
+
+    .sub_box {
+        width: 300px;
+        background-size: 100px 100px;
+    }
+
+    .sub_text {
+        width: 280px;
+    }
+
+    .sub_text h3 {
+        font-weight: 700;
+        font-size: 24px;
+        /* line-height: 150%; */
+    }
+
+    .sub_text p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+    }
+
+    .sub_input input {
+        width: 280px;
+        background: none;
+        border: none;
+        color: white;
+        outline: none;
+        border-bottom: 1px solid white;
+        caret-color: white;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .trad h2 {
+        color: #0D0D2B;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        /* width: 741px; */
+        text-align: center;
+    }
+
+    .market h2 {
+        font-weight: 700;
+        font-size: 20px;
+        /* line-height: 150%; */
+        /* max-width: 758px; */
+    }
+
+    .contents img {
+        width: 300px;
+    }
+
+    .coin_items {
+        width: 280px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .market {
+        padding: 10px;
+    }
+
+    .sub_box {
+        padding: 5px;
+    }
+    .numbers {
+        padding: 10px;
+    }
+
+    /* .number_details {
+        width: 300px;
+    } */
+
+    .number_details img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    .conts {
+        max-width: 250px;
+    }
+
+    .contents_four>p {
+        margin: 0;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .contents_four img {
+        width: 60px;
+    }
+
+    .hash>button {
+        width: 87px;
+        height: 39px;
+        background: #3671E9;
+        border: 1px solid #3671E9;
+        color: white;
+        border-radius: 32px;
+    }
+
+}
+
+@media screen and (min-width: 360px){
+
+}
+
+@media screen and (min-width: 768px) {
+    .hash>button {
+        width: 147px;
+        height: 59px;
+        background: #3671E9;
+        border: 1px solid #3671E9;
+        color: white;
+        border-radius: 32px;
+    }
+}
+
 @media screen  and (min-width: 1024px){
     header {
         min-height: 100vh;
+        padding: 30px;
+        background-size: 500px 500px 500px;
     }
+
+    .black_friday {
+        width: 365px;
+    }
+
+    .save{
+        width: 113px;
+    }
+
+    .second img {
+        width: 550px;
+    }
+
+    .intro_text h2 {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 76px;
+        margin: 0;
+    }
+
+    .text_2 p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        width: 435px;
+    }
+
+    .second_div {
+        display: flex;
+    }
+
+    .investor_img>img {
+        max-width: 500px;
+    }
+
+    .stats_img>img {
+        max-width: 500px;
+    }
+
+    .sub_box {
+        width: 80%;
+        background-size: 150px 150px ;
+    }
+
+    .profit_img>img {
+        max-width: 500px;
+    }
+
+    .sub_text {
+        width: 320px;
+    }
+
+    .sub_text h3 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+    }
+
+    .sub_text p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+    }
+
+    .sub_input input {
+        width: 374px;
+        background: none;
+        border: none;
+        color: white;
+        outline: none;
+        border-bottom: 1px solid white;
+        caret-color: white;
+        margin-right: 20px;
+    }
+
+    .trad h2 {
+        color: #0D0D2B;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 150%;
+        width: 741px;
+        text-align: center;
+    }
+
+    .market h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 150%;
+        max-width: 758px;
+    }
+
+    .contents img {
+        width: 400px;
+    }
+
+    .number_details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 360px;
+    }
+
+    .coins {
+        padding: 50px 0;
+    }
+
+    .coin_items {
+        max-width: 300px;
+        padding: 20px;
+    }
+
+    .number_details img {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+
+    .contents_four>p {
+        margin: 1rem;
+    }
+
+    footer {
+        padding: 50px;
+    }
+
 }
